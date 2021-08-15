@@ -40,6 +40,6 @@ const Header = ({ setCoordinates }) => {
             </Toolbar>
         </AppBar>
     );
-}
+};
 
 export default Header;

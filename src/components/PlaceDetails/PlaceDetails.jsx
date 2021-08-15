@@ -62,6 +62,6 @@ const PlaceDetails = ({ place, selected, refProp }) => {
             </CardContent>
         </Card>
     );
-}
+};
 
 export default PlaceDetails;
