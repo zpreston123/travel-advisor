@@ -26,7 +26,7 @@ const App = () => {
     }, []);
 
     useEffect(() => {
-        const filteredPlaces = places.filter((place) => place.rating > rating);
+        const filteredPlaces = places.filter((place) => Number(place.rating) > rating);
 
         setFilteredPlaces(filteredPlaces);
     }, [rating]);
@@ -76,6 +76,6 @@ const App = () => {
             </Grid>
         </>
     );
-}
+};
 
 export default App;
